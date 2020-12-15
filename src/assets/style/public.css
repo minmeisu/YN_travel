@@ -1,0 +1,89 @@
+/* 底部导航 */
+.nav{
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	background-color: rgb(235, 235, 228);
+	padding: 0 0.4rem;
+	z-index: 999;
+}
+.nav img{
+	width: 0.5rem;
+	height: 0.5rem;
+}
+.nav p {
+	font-size: 0.26rem;
+	padding-top: 0.04rem;
+}
+/* 列表页 */
+.content{
+	display: flex;
+	height: auto;
+	overflow: hidden;
+	padding: .2rem 0;
+	justify-content: space-between;
+	border-bottom: 1px solid #e8e8e8;
+}
+.content-image{
+	width: 100%;
+	height: auto;
+	margin-left:0.1rem;
+	margin-right: 0.2rem;
+}
+.content-image img{
+	width: 100%;
+	display: block;
+}
+.content-list{
+	width: 100%;
+	margin-right: .1rem;
+	position: relative;
+}
+.content-name{
+	/* 实现文本只有两行 */
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	font-size:0.34rem;
+	font-weight: bold;
+	line-height: 1.5;
+}
+.content-biao{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 0.24rem;
+}
+.content-biao p{
+	border: 1px solid darkcyan;
+	color: #0086B3;
+	padding: 0.02rem .1rem;
+	border-radius: 1rem;
+}
+/*顶部返回*/			
+.header-fixed{position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	text-align: center;
+	color: #fff;
+	background: #0086B3;
+	font-size: 0.35rem;
+	z-index: 2;}	
+.header-fixed-back{position: absolute;
+		top: 0;
+		left: 0;
+		width: .6rem;
+		text-align: center;
+		font-size: .4rem;
+		color: #fff;}
+.header-fixed-back img{width: .6rem; color: white;
+			padding-bottom: 0.09rem;
+			}							
